@@ -1,0 +1,13 @@
+@import 'customVariable';
+@mixin focusDelete {
+    outline: none;
+    box-shadow: none;
+}
+@mixin notificationCovid {
+    background-color: $gray-400;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: $red;
+    border-radius: 25px;
+}

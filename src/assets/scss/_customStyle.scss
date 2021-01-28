@@ -1,0 +1,119 @@
+@import 'customMixins';
+@import 'customVariable';
+// Navbar
+.navbar {
+    border-bottom: 1px solid darken($gray-400, 5%);
+    .navbar-toggler {
+        border: none;
+        &:focus {
+            @include focusDelete();
+        }
+    }
+    .navbar-nav {
+        li.nav-item {
+            a.nav-link{
+                &.active {
+                    color: $gray-600;
+                }
+                color: lighten($gray-500,15%);
+            }
+        }
+    }
+}
+.hero-container {
+    margin-bottom: 160px;
+    h1.covid__title {
+        color: $gray-600;
+        font-weight: 600;
+        font-size: 40px;
+    }
+    p.covid__description {
+        color: $gray-500;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .col__content__hero {
+        padding-top: 160px;
+    }
+    .btn-hero {
+        box-shadow: 0px 10px 30px rgba(123, 123, 123, 0.15);
+        padding: 10px 40px;
+        border-radius: 0px 20px 20px 20px;
+        position: relative;
+        transition: .4s ease-in-out;
+        color: #FFF;
+        font-size: 14px;
+        background-color: $red; 
+        &:hover {
+            background-color: #FFF;
+            color: $red;
+        }
+    }
+    .image__hero {
+        height: 550px;
+    }
+}
+.data-container {
+    margin-bottom: 80px;
+    .card__body__covid {
+        border-radius: 25px;
+        border: none;
+        background-color: #FFF;
+        box-shadow: 0px 10px 30px rgba(123, 123, 123, 0.1);
+        padding: 80px 5px;
+    }
+    .data__country,
+    .data__confirmed,
+    .data__death,
+    .data__recovery {
+        font-weight: 600;
+        font-size: 31px;
+    }
+    .data__country,
+    p.data__desc_1,
+    .data__confirmed,
+    p.data__desc_2 {
+        color: $gray-600;
+    }
+    .data__recovery,
+    p.data__desc_3 {
+        color: $green;
+    }
+    .data__death,
+    p.data__desc_4 {
+        color: $red;
+    }
+    .covid__source {
+        position: absolute;
+        top: 220px;
+        .title__source {
+            font-weight: 400;
+            font-style: italic;
+            font-size: 13px;
+            color: $gray-600;
+        }
+    }
+}
+.about-container {
+    margin-bottom: 100px;
+    .image__about {
+        height: 350px;
+    }
+}
+.symptoms-container {
+    margin-bottom: 100px;
+    .card {
+        border: none;
+        svg.icons-svg {
+            color: $green;
+        }
+        .icon__text {
+            font-size: 15px;
+            font-weight: 500;
+            color: $gray-600;
+        }
+    }
+    .bg__image {
+        height: 390px;
+    }
+}

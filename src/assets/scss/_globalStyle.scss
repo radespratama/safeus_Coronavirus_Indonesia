@@ -1,0 +1,62 @@
+@import 'customMixins';
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #FFF; 
+}
+::-webkit-scrollbar-thumb {
+    background: $gray-600;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+}
+.btn-custom {
+    box-shadow: 0px 10px 30px rgba(123, 123, 123, 0.15);
+    padding: 10px 20px;
+    border-radius: 0px 20px 20px 20px;
+    position: relative;
+    transition: .4s ease-in-out;
+    font-size: 14px;
+    color: $red;
+    background-color: #FFF; 
+    &:hover {
+        background-color: $red;
+        color: #FFF;
+    }
+}
+.notification__covid {
+    @include notificationCovid();
+}
+.figure__background {
+    img {
+        position: absolute;
+        height: 200px;
+        z-index: -1;
+        top: 430px;
+        left: 0;
+    }
+}
+.figure__background__2 {
+    img {
+        position: absolute;
+        height: 210px;
+        z-index: -1;
+        top: 80rem;
+        right: 0;
+    }
+}
+.covid__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: $red;
+}
+.covid__title {
+    font-weight: 600;
+    font-size: 36px;
+    color: $gray-600;
+}
+.covid__description {
+    color: $gray-500;
+    font-size: 14px;
+    font-weight: 400;
+}

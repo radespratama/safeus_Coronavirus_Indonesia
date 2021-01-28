@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+    .hero-container {
+
+        .col__content__hero {
+            padding-top: 30px;
+        }
+        h1.covid__title {
+            font-size: 30px;
+        }
+        p.covid__description {
+            font-size: 12px;
+        }
+
+        .figure__background,
+        .image__hero {
+            display: none;
+        }
+    }
+}

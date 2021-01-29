@@ -13,6 +13,9 @@ import Hero from 'components/parts/Hero'
 import ListCovid from 'components/parts/DataCovid'
 import About from 'components/parts/About';
 import Symptoms from 'components/parts/Symptoms';
+import Contagion from 'components/parts/Contagion';
+import Prevention from 'components/parts/Prevention';
+import Footer from 'components/parts/Footer';
 
 import mockupResponse from 'assets/json/mockupResponse.json';
 export default function LandingPage() {
@@ -61,6 +64,9 @@ export default function LandingPage() {
             <ListCovid data={DataCovid} />
             <About data={mockupResponse.about} />
             <Symptoms data={mockupResponse.symptoms} />
+            <Contagion data={mockupResponse.contagion} />
+            <Prevention data={mockupResponse.prevention} />
+            <Footer />
         </>
     )
 }

@@ -95,25 +95,96 @@
     }
 }
 .about-container {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     .image__about {
         height: 350px;
     }
 }
 .symptoms-container {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     .card {
         border: none;
-        svg.icons-svg {
-            color: $green;
-        }
-        .icon__text {
-            font-size: 15px;
-            font-weight: 500;
-            color: $gray-600;
-        }
     }
     .bg__image {
         height: 390px;
+    }
+}
+.contagion-container {
+    background-color: #E9ECEF;
+    width: 100%;
+
+    .col__custom {
+        padding: 8px;
+        .card-custom {
+            border-radius: 25px;
+            border: none;
+            transition: .5s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            img {
+                width: 159.991px;
+                margin: 0 auto;
+            }
+            .card__description {
+                font-weight: 500;
+                font-size: 15px;
+                color: $gray-600;
+            }
+        }
+    }
+    .content__right {
+        margin-top: 8rem;
+    }
+}
+.prevention-container {
+    .card__prevention {
+        background-color: white;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+        border: none;
+        .content {
+            .content__card {
+                flex-direction: column;
+            }
+            img {
+                width: 108px;
+                height: 120px;
+            }
+            .prevention__title {
+                font-size: 24px;
+                font-weight: 600;
+                color: $gray-600;
+            }
+        }
+    }
+}
+footer {
+    margin-top: 90px;
+    border-top: 1px solid $gray-200;
+    padding-top: 50px;
+  
+    .brand-tagline {
+        margin-top: 8px;
+        color: $gray-500;
+        font-weight: 300;
+    }
+
+    .list-group-item {
+        padding: 0.3125rem 0;
+        border: 0;
+        a {
+        color: $gray-500;
+        font-weight: 300;
+        }
+        a {
+        @include hover-focus {
+        color: $gray-800;
+        text-decoration: none;
+        }
+        }
+    }
+    .copyrights {
+        margin: 50px 0;
+        font-weight: 300;
+        color: $gray-500;
     }
 }

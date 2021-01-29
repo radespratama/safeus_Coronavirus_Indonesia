@@ -12,7 +12,7 @@ export default function Symptoms({data}) {
                         </svg>
                         Covid-19 Symptoms
                     </span>
-                    <h1 className="covid__title mb-3" data-aos="fade-down" data-aos-delay="400">What are the Symptoms ?</h1>
+                    <h1 className="covid__title mb-3" data-aos="fade-down" data-aos-delay="400">{data.title}</h1>
                     <p className="covid__description mb-4" data-aos="fade-down" data-aos-delay="500">
                         { data?.description }
                     </p>

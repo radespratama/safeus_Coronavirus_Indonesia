@@ -5,6 +5,7 @@
     },
     "symptoms": {
         "_id": "13asqw13",
+        "title": "What are the Symptoms ?",
         "description": "COVID-19 symptoms range from mild to severe. It takes 2-14 days after exposure for symptoms to develop. Symptoms may include :",
         "details": [
             { "id": 0, "name": "Hard Cough" },
@@ -17,28 +18,29 @@
     },
     "contagion": {
         "_id": "14asqw14",
+        "title": "How does coronavirus spread ?",
         "description": "Health experts are still learning the details. Currently, it's thought to spread :",
         "details": [
             { "id": 0, "name": "Via Respiratory droplets produced when an infected person Cough or Sneeze." },
             { "id": 1, "name": "Between people who are in close contact with another (within about 6 feet)." }
         ],
         "imageId": [
-            { "id": "qwertylsdk1", "imageUrl": "/images/icon-7.png" },
-            { "id": "qwertylsdk2", "imageUrl": "/images/icon-8.png" },
-            { "id": "qwertylsdk3", "imageUrl": "/images/icon-9.png" },
-            { "id": "qwertylsdk4", "imageUrl": "/images/icon-10.png" }
+            { "id": "qwertylsdk1", "imageUrl": "/images/icon-7.png", "description": "Air Transmission by Cough or Sneeze" },
+            { "id": "qwertylsdk2", "imageUrl": "/images/icon-8.png", "description": "Direct contact with pets and others" },
+            { "id": "qwertylsdk3", "imageUrl": "/images/icon-9.png", "description": "Direct contact with others or friends" },
+            { "id": "qwertylsdk4", "imageUrl": "/images/icon-10.png", "description": "Contaminated objects such as food or gadget" }
         ]
     },
     "prevention": {
         "title": "How can I protect myself from Covid-19 ?",
-        "description": "If you are travelling overseas (to China or other Country Places)Follow the CDC's guidance :",
+        "description": "If you are travelling overseas (to China or other Country Places) Follow the CDC's guidance :",
         "details": [
-            { "id": 0, "imageUrl": "/images/icon-1.png" , "title": "Cover Face When Coughing", "sub-title": "Cover your mouth/nose with a tissue or sleeve when coughing and sneezing." },
-            { "id": 1, "imageUrl": "/images/icon-2.png" , "title": "Wear Face Mask", "sub-title": "Always use your mask when wou want travel suddenly and when buying food." },
-            { "id": 2, "imageUrl": "/images/icon-3.png" , "title": "Wash Your Hand Frequently", "sub-title": "Wash hands often with soap and water. If not available, use hand sanitizer" },
-            { "id": 3, "imageUrl": "/images/icon-4.png" , "title": "Avoid Animal Contact", "sub-title": "Always avoid direct contact with both pets and animal in the wild." },
-            { "id": 4, "imageUrl": "/images/icon-5.png" , "title": "Avoid Market and Crowd", "sub-title": "Always avoid crowds and crowded places to avoid direct transmission." },
-            { "id": 5, "imageUrl": "/images/icon-6.png" , "title": "Seek Medical Care", "sub-title": "CAlways medical checking to check whether we are healthy or we have been infected." }
+            { "id": 0, "imageUrl": "/images/icon-1.png" , "title": "Cover Face When Coughing", "sub_title": "Cover your mouth/nose with a tissue or sleeve when coughing and sneezing." },
+            { "id": 1, "imageUrl": "/images/icon-2.png" , "title": "Wear Face Mask", "sub_title": "Always use your mask when wou want travel suddenly and when buying food." },
+            { "id": 2, "imageUrl": "/images/icon-3.png" , "title": "Wash Your Hand Frequently", "sub_title": "Wash hands often with soap and water. If not available, use hand sanitizer" },
+            { "id": 3, "imageUrl": "/images/icon-4.png" , "title": "Avoid Animal Contact", "sub_title": "Always avoid direct contact with both pets and animal in the wild." },
+            { "id": 4, "imageUrl": "/images/icon-5.png" , "title": "Avoid Market and Crowd", "sub_title": "Always avoid crowds and crowded places to avoid direct transmission." },
+            { "id": 5, "imageUrl": "/images/icon-6.png" , "title": "Seek Medical Care", "sub_title": "CAlways medical checking to check whether we are healthy or we have been infected." }
         ]
     }
 }

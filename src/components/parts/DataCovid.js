@@ -38,7 +38,7 @@ export default function DataCovid({ data }) {
 
                             <div className="col-md-5 text-center covid__source">
                                 <p className="title__source">
-                                    *** Data statistic COVID-19 in Indonesia, <NavLink to="/">More Data</NavLink>
+                                    *** Data statistic COVID-19 in Indonesia, <NavLink to="/data">More Data</NavLink>
                                 </p>
                             </div>
                         </div>
